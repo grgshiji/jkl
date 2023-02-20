@@ -1,0 +1,13 @@
+{
+  "name": "jkl",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/jkl",
+    "ssh": "git@github.com:grgshiji/jkl.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
